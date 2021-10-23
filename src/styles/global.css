@@ -20,6 +20,9 @@ body{
 }
 
 a{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
     text-decoration: none;
     transition: 0.2s opacity;    
 }
@@ -43,23 +46,26 @@ a:hover{
 
 .containerc{
     color: var( --color-text-dark);
-    /*width: 35px;*/
     margin-top: 0px;
     margin-bottom: 80px;
-    /*position: absolute;*/
     left: 80px;
 
 }
 
 main{
+    font-family: Ubuntu;
+    font-style: normal;
     width: 100%;
     min-height: calc( 100vh - 120px);
-    display: flex;
-    flex-direction: column;
+    display: table-cell;
+    float: left;
 }
 
 h1{
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
     color: var(--color-text-title);
-    margin: 40px 0;
-    font-size: 30px;
+    margin: 10px 0;
+    font-size: 40px;
 }

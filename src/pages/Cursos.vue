@@ -4,16 +4,34 @@
 
             <div class="container">
             <h1>Cursos</h1>
-            <p>Educação financeira é tudo!</p>
+            <p>Educação financeira é tudo de bom</p>
             </div>
 
             <section class="videos">
 
-                <div v-for="(video, index) in videos" class="video" :key="index">
-                    <a  :href="video.link" target="blank">
-                                         
-                        <img :src="video.thumb" :alt="video.title">
-                        <div class="video-title">{{ video.title }}</div>
+                <div class="video">
+                    <a  href="/interno">
+                        
+                        <h1>Investimento para iniciantes</h1>
+                        <img src="@/assets/image 3 (Traced).png" alt="Investimento para iniciantes">
+
+                </a>
+                </div>
+
+                <div class="video">
+                    <a  href="/interno2">
+
+                        <h1>Poupando e Rendendo</h1> 
+                        <img src="@/assets/image 2 (Traced).png" alt="Poupando e rendendo">
+
+                </a>
+                </div>
+
+                <div class="video">
+                    <a  href="/interno3">
+                        
+                        <h1>Independência Financeira</h1>
+                        <img src="@/assets/image 4 (Traced).png" alt="Independência Financeira">
 
                 </a>
                 </div>
@@ -25,7 +43,7 @@
 </template>
 
 <script>
-    import api from '@/services/api.js';
+import api from '@/services/api.js';
 
 export default {
     name:'Cursos',
@@ -46,6 +64,7 @@ export default {
 
     main{
         align-items: center;
+        padding: 3%;
     }
 
     .videos{

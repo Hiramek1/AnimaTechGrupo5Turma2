@@ -15,7 +15,7 @@
 
         <ul>
           <li><a href="/">cursos</a></li>
-          <li><a href="/contato">painel administrativo</a></li>
+          <li><a href="/painel">painel administrativo</a></li>
         </ul>
       </div>
     </nav>
